@@ -5,7 +5,7 @@ import { renderWithTheme } from "../testHelpers";
 describe("Counter", () => {
   it("Got React text", () => {
     renderWithTheme(<Counter />);
-    const text = screen.getByText(/React/i);
+    const text = screen.getByText(/Rect/i);
     expect(text).toBeInTheDocument();
   });
 
